@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Design/stylesheet.uss?fileID=7433441132597879392&amp;guid=3a6f9d9d7a33a4c93b11384a8c5a3ab0&amp;type=3#stylesheet" />
+    <ui:VisualElement name="rootVisual" style="flex-grow: 1; flex-direction: column; flex-wrap: wrap; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+        <ui:VisualElement name="buttonContainer" tabindex="0" focusable="true" style="flex-direction: row; flex-grow: 0; flex-shrink: 1; flex-basis: 20%; justify-content: space-around; bottom: 0; position: absolute; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; align-items: center; visibility: visible; overflow: hidden; opacity: 1; right: 0; width: 40%; height: 10%;">
+            <ui:Button text="Previous scene" display-tooltip-when-elided="true" name="previousButton" class="button" />
+            <ui:Button text="Next scene" display-tooltip-when-elided="true" name="nextButton" class="button" />
+        </ui:VisualElement>
+        <ui:VisualElement name="textContainer" style="position: absolute; top: 0; right: 0; margin-left: 5px; margin-right: 5px; margin-top: 5px; margin-bottom: 5px; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px; background-color: rgb(0, 0, 0); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; display: none;">
+            <ui:Label text="⚠️ ALERTE PERTUBATEUR\n" display-tooltip-when-elided="true" name="Label" style="color: rgb(255, 12, 0); display: flex;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
