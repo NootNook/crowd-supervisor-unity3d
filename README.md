@@ -4,9 +4,7 @@ Le projet consiste à déployer des drones aériens pour surveiller des événem
 
 ## Présentation vidéo
 
-<video width="640" height="360" controls>
-  <source src="docs/videos/CrowdSupervisorV4.2.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-8eb0-2d9518529ce9.mp4
 
 ## Vue d'ensemble du système
 
