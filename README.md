@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ### Utilisateur
 
-| Tâches                                                                                                                          	| Implementer ? 	|
+| Tâches                                                                                                                          	| Implementée ? 	|
 |---------------------------------------------------------------------------------------------------------------------------------	|---------------	|
 | Visualiser plusieurs caméras de drônes sur 1 écran                                                                              	| ✅             	|
 | Pouvoir alterner entre les caméras et les consulter individuellement à l’aide de contrôles (clavier/souris)                     	| ✅             	|
@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ### Drone aérien
 
-| Tâches                                                                                                                                                                                    	| Implementer ? 	|
+| Tâches                                                                                                                                                                                    	| Implementée ? 	|
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|
 | Couvrir l’ensemble de sa zone attribuée avec sa caméra                                                                                                                                    	| ✅             	|
 | Détecter tout mouvement de foule défini comme “suspect”                                                                                                                                   	| ✅             	|
@@ -42,7 +42,7 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ### Gestionnaire des drones au sol
 
-| Tâches                                                                                                                                                                                                                                                                                                                                          	| Implementer ? 	|
+| Tâches                                                                                                                                                                                                                                                                                                                                          	| Implementée ? 	|
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|
 | Recevoir le signal des drones aériens et assigner les ressources disponibles aux zones concernées                                                                                                                                                                                                                                               	| ✅             	|
 | Envoyer l’état de la mobilisation des ressources aux drones aériens ayant fait la requête de ressources terrestres. (Ressources en cours de déplacement / indisponibles, problème résolu…)                                                                                                                                                      	| ❌             	|
@@ -51,38 +51,38 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ### Drone au sol
 
-| Tâches                                                                                                                                                                                                                                                                                                     	| Implementer ? 	|
+| Tâches                                                                                                                                                                                                                                                                                                     	| Implementée ? 	|
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|
-| Se rendre sur la zone signalée par les drones aériens                                                                                                                                                                                                                                                      	|               	|
-| Pouvoir communiquer son emplacement de façon régulière avec le gestionnaire de ressources au sol                                                                                                                                                                                                           	|               	|
-| [Action : gestion de la foule] Attirer et régulariser les éléments de foules réagissant à la perturbation                                                                                                                                                                                                  	|               	|
-| [Action : gestion de la foule] Émettre un signal aux drones aériens voisins pour connaître la zone voisine la plus “stable” et recevoir leur réponse                                                                                                                                                       	|               	|
-| [Action : gestion de la foule] Déplacer les éléments de foule attirés dans la zone voisine la plus sécurisée                                                                                                                                                                                               	|               	|
-| [Action : gestion de la foule] Être capable de se diriger vers une nouvelle zone proche pour rediriger une autre partie de la foule après que le gestionnaire de drones au sol lui en a donné l’ordre. (cf. tâche de réorganisation et d’optimisation des parcours dans le gestionnaire de drones au sol). 	|               	|
-| [Action : gestion de la perturbation] Repérer l’élément perturbateur une fois arrivé sur place                                                                                                                                                                                                             	|               	|
-| [Action : gestion de la perturbation] “Neutraliser” la perturbation (soit en faisant disparaître l’élément en question à son contact, soit en l’escortant en dehors du périmètre de l’événement.)                                                                                                          	|               	|
-| [Action : gestion de la perturbation] Être capable de “neutraliser” plusieurs éléments perturbateurs si le gestionnaire de drones au sol lui en donne l’ordre. (cf. tâche de réorganisation et d’optimisation des parcours dans le gestionnaire de drones au sol).                                         	|               	|
-| Envoyer un message au gestionnaire de drones au sol lorsque la tâche est terminée et que le trajet retour est commencé.                                                                                                                                                                                    	|               	|
+| Se rendre sur la zone signalée par les drones aériens                                                                                                                                                                                                                                                      	|        ✅       	|
+| Pouvoir communiquer son emplacement de façon régulière avec le gestionnaire de ressources au sol                                                                                                                                                                                                           	|      ✅         	|
+| [Action : gestion de la foule] Attirer et régulariser les éléments de foules réagissant à la perturbation                                                                                                                                                                                                  	|        ✅       	|
+| [Action : gestion de la foule] Émettre un signal aux drones aériens voisins pour connaître la zone voisine la plus “stable” et recevoir leur réponse                                                                                                                                                       	|        ❌       	|
+| [Action : gestion de la foule] Déplacer les éléments de foule attirés dans la zone voisine la plus sécurisée                                                                                                                                                                                               	|        ❌       	|
+| [Action : gestion de la foule] Être capable de se diriger vers une nouvelle zone proche pour rediriger une autre partie de la foule après que le gestionnaire de drones au sol lui en a donné l’ordre. (cf. tâche de réorganisation et d’optimisation des parcours dans le gestionnaire de drones au sol). 	|        ❌       	|
+| [Action : gestion de la perturbation] Repérer l’élément perturbateur une fois arrivé sur place                                                                                                                                                                                                             	|        ✅       	|
+| [Action : gestion de la perturbation] “Neutraliser” la perturbation (soit en faisant disparaître l’élément en question à son contact, soit en l’escortant en dehors du périmètre de l’événement.)                                                                                                          	|      ✅         	|
+| [Action : gestion de la perturbation] Être capable de “neutraliser” plusieurs éléments perturbateurs si le gestionnaire de drones au sol lui en donne l’ordre. (cf. tâche de réorganisation et d’optimisation des parcours dans le gestionnaire de drones au sol).                                         	|       ✅        	|
+| Envoyer un message au gestionnaire de drones au sol lorsque la tâche est terminée et que le trajet retour est commencé.                                                                                                                                                                                    	|        ✅       	|
 
 ### Elément de foule standard
 
-| Tâches                                                                                                                                                                                      	| Implementer ? 	|
+| Tâches                                                                                                                                                                                      	| Implementée ? 	|
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------	|
-| Se déplacer de façon aléatoire                                                                                                                                                              	|               	|
-| Pouvoir changer aléatoirement de vitesse en restant dans les bornes de la “norme”                                                                                                           	|               	|
-| Réagir à l’approche d’un élément perturbateur (ex: changement brusque de direction ou de vitesse, etc.)                                                                                     	|               	|
-| S’arrêter temporairement de façon aléatoire                                                                                                                                                 	|               	|
-| Lors de sa réaction à un comportement suspect, pouvoir être perçu temporairement comme un élément perturbateur par les autres éléments de foule. Le but est ici de créer un effet “domino”. 	|               	|
+| Se déplacer de façon aléatoire                                                                                                                                                              	|        ✅       	|
+| Pouvoir changer aléatoirement de vitesse en restant dans les bornes de la “norme”                                                                                                           	|          ✅     	|
+| Réagir à l’approche d’un élément perturbateur (ex: changement brusque de direction ou de vitesse, etc.)                                                                                     	|           ✅    	|
+| S’arrêter temporairement de façon aléatoire                                                                                                                                                 	|           ✅    	|
+| Lors de sa réaction à un comportement suspect, pouvoir être perçu temporairement comme un élément perturbateur par les autres éléments de foule. Le but est ici de créer un effet “domino”. 	|         ✅      	|
 
 ### Elément de foule perturbateur
 
-| Tâches                                                                                                	| Implementer ? 	|
+| Tâches                                                                                                	| Implementée ? 	|
 |-------------------------------------------------------------------------------------------------------	|---------------	|
-| Se déplacer de façon aléatoire                                                                        	|               	|
-| Pouvoir changer aléatoirement de vitesse en restant dans les bornes de la “norme”                     	|               	|
-| Créer une anomalie dans la foule alentour une fois son comportement suspect activé                    	|               	|
-| Activer son comportement suspect un certain temps après avoir agi comme un élément de foule standard. 	|               	|
-| Désactiver son comportement suspect après un certain temps                                            	|               	|
+| Se déplacer de façon aléatoire                                                                        	|       ✅        	|
+| Pouvoir changer aléatoirement de vitesse en restant dans les bornes de la “norme”                     	|        ✅       	|
+| Créer une anomalie dans la foule alentour une fois son comportement suspect activé                    	|        ✅       	|
+| Activer son comportement suspect un certain temps après avoir agi comme un élément de foule standard. 	|       ✅        	|
+| Désactiver son comportement suspect après un certain temps                                            	|         ✅      	|
 
 ## Architecture du projet
 
