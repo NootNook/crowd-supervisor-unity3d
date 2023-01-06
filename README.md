@@ -43,13 +43,13 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 |---------------------------------------------------------------------	|-------------------------------------------------------------------------------------------------------	|
 | [Materials](CrowdSupervisor/Assets/Materials/)                      	| Textures du projet                                                                                    	|
 | [Plugins](CrowdSupervisor/Assets/Plugins/)                          	| Plugin de [ZeroMQ](https://zeromq.org/), une bibliothèque de messagerie asynchrone                    	|
-| [Prefabs](CrowdSupervisor/Assets/Prefabs/)                          	| Différents éléments du projet (drone, personnage...)                                                  	|
+| [Prefabs](CrowdSupervisor/Assets/Prefabs/)                          	| Différents éléments préfabs du projet (drone, personnage...)                                                  	|
 | [Scenes](CrowdSupervisor/Assets/Scenes/)                            	| Plusieurs scènes de notre simulation                                                                  	|
 | [Scripts](CrowdSupervisor/Assets/Scripts/)                          	| Emplacement de notre code                                                                             	|
 | ↳ [Bridge](CrowdSupervisor/Assets/Scripts/Bridge)                   	| Pont de communication entre Unity3D C# et le traitement d'image en Python avec la bibliothèque OpenCV 	|
 | ↳ [Core](CrowdSupervisor/Assets/Scripts/Bridge)                     	| Gestion des informations entre l'interface utilisateur et la détection des perturbateurs              	|
-| ↳ [Entity](CrowdSupervisor/Assets/Scripts/Entity)                   	| Script pour les perturbateurs                                                                         	|
-| ↳ [FSM Behaviours](CrowdSupervisor/Assets/Scripts/FSM%20Behaviours) 	| Machine d'états finie pour les mouvements foule                                                       	|
+| ↳ [Entity](CrowdSupervisor/Assets/Scripts/Entity)                   	| Script pour la détection de perturbateurs                                                                         	|
+| ↳ [FSM Behaviours](CrowdSupervisor/Assets/Scripts/FSM%20Behaviours) 	| Machine à états finis pour la simulation de foule                                                       	|
 | ↳ [Ground Team](CrowdSupervisor/Assets/Scripts/Ground%20Team)       	| Implémentation de l'équipe sol (rovers)                                                               	|
 | ↳ [UAV](CrowdSupervisor/Assets/Scripts/UAV)                         	| Gestion des drones et leurs implémentations                                                           	|
 | ↳ [UI](CrowdSupervisor/Assets/Scripts/UI)                           	| Gestion de l'interface utilisateur                                                                    	|
