@@ -1,2 +1,3 @@
-# crowd-supervisor-unity3d
-Crowd supervisor with drones and rover in Unity 3D
+# Surveillance et détection des mouvements de foule sur Unity 3D
+
+![Représentation du projet](docs/images/intro.png)
