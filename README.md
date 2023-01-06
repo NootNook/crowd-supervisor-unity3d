@@ -12,8 +12,6 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ## Implémentations
 
-[Cahier des charges](https://docs.google.com/document/d/1W9_L-3wnJW1qDWdUnx-Slf4nJRdZGfmyLsaZq3f1Hkk/edit)
-
 ### Utilisateur
 
 | Tâches                                                                                                                          	| Implementer ? 	|
