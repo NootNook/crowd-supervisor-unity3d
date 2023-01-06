@@ -12,7 +12,30 @@ https://user-images.githubusercontent.com/67638224/211047237-a4e4ebfd-85f4-4c22-
 
 ## Implémentations
 
-todo
+[Cahier des charges](https://docs.google.com/document/d/1W9_L-3wnJW1qDWdUnx-Slf4nJRdZGfmyLsaZq3f1Hkk/edit)
+
+### Utilisateur
+
+| Tâches                                                                                                                          	| Implementer ? 	|
+|---------------------------------------------------------------------------------------------------------------------------------	|---------------	|
+| Visualiser plusieurs caméras de drônes sur 1 écran                                                                              	| ✅             	|
+| Pouvoir alterner entre les caméras et les consulter individuellement à l’aide de contrôles (clavier/souris)                     	| ✅             	|
+| Recevoir une alerte sur l’écran lorsqu’une anomalie est détectée (être incité à consulter la ou les caméra(s) correspondante(s) 	| ✅             	|
+| Consulter le nombre d’anomalies en cours en temps réel                                                                          	| ✅             	|
+| Ajouter/Retirer des élément de foule au cours de la simulation à l’aide de commandes (clavier/souris)                           	| ❌             	|
+| Ajouter/Retirer des éléments de foule perturbateurs au cours de la simulation à l’aide de commande (clavier/souris)             	| ❌             	|
+| Déclencher manuellement des comportements anormaux dans la foule                                                                	| ❌             	|
+
+### Drone aérien
+
+### Gestionnaire des drones au sol
+
+### Drone au sol
+
+### Elément de foule standard
+
+### Elément de foule perturbateur
+
 
 ## Architecture du projet
 
